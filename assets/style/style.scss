@@ -1,0 +1,47 @@
+@import "color";
+
+body{
+    background-color: $bgColor;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    
+    font-size: small;
+    a{
+        color: $mainFontColor;
+    }
+}
+a:hover{
+    transform: scale(1.1);
+    color: $mainFontColor !important;
+}
+ion-icon{
+    padding:0em 1em;
+    font-size: 1em;
+    color: $mainFontColor;
+}
+header, main{
+    color: $mainFontColor;
+}
+h1{
+    display: inline-block;
+}
+.btn{
+    background-color: #010101;
+    color: $mainFontColor;
+    border:1px solid white;
+    border-radius: 0%;
+    font-size: 0.7rem;
+}
+button.carousel-control-next{
+    right: -6%;
+}
+button.carousel-control-prev{
+    left: -6%;
+}
+footer a, address{
+    text-decoration: none;
+    color: gray;
+    font-size: 0.7em;
+}

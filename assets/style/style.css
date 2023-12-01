@@ -1,0 +1,52 @@
+body {
+  background-color: #141414;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  font-size: small;
+}
+.navbar a {
+  color: white;
+}
+
+a:hover {
+  transform: scale(1.1);
+  color: white !important;
+}
+
+ion-icon {
+  padding: 0em 1em;
+  font-size: 1em;
+  color: white;
+}
+
+header, main {
+  color: white;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.btn {
+  background-color: #010101;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0%;
+  font-size: 0.7rem;
+}
+
+button.carousel-control-next {
+  right: -6%;
+}
+
+button.carousel-control-prev {
+  left: -6%;
+}
+
+footer a, address {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.7em;
+}/*# sourceMappingURL=style.css.map */
